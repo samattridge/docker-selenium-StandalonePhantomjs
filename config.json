@@ -1,12 +1,12 @@
 {
   "capabilities": [
     {
-      "browserName": "*firefox",
+      "browserName": "*phantomjs",
       "maxInstances": 1,
       "seleniumProtocol": "Selenium"
     },
     {
-      "browserName": "firefox",
+      "browserName": "phantomjs",
       "maxInstances": 1,
       "seleniumProtocol": "WebDriver"
     }
