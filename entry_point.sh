@@ -12,6 +12,7 @@ fi
 
 xvfb-run --server-args="$DISPLAY -screen 0 $GEOMETRY -ac +extension RANDR" \
   java ${JAVA_OPTS} -jar /opt/selenium/selenium-server-standalone.jar \
+  -Dphantomjs.binary.path="/usr/bin/phantomjs" \
   ${SE_OPTS} &
 NODE_PID=$!
 
